@@ -7,7 +7,7 @@ function Header() {
       <div className="flex items-center space-x-2">
         <Link href="/">
           <Image
-            src="https://i.ibb.co/rtn35qD/android-chrome-512x512.png"
+            src="https://i.ibb.co/2ghDrY3/android-chrome-512x512.png"
             width={50}
             height={50}
             className="rounded-full"

@@ -4,7 +4,7 @@ function Banner() {
   return (
     <div className="flex flex-col lg:flex-row lg:space-x-5 justify-between font-bold mx-2 px-10 py-5 mb-10 bg-[#c3bbf7] rounded-xl">
       <div>
-        <h1 className="text-3xl text-[#8569e9]">Welcome to the Snippet's Blog</h1>
+        <h1 className="text-2xl text-[#8569e9]">Scopri come creare esperienze web uniche e coinvolgenti con React</h1>
 
       </div>
       <SeacrhBar />

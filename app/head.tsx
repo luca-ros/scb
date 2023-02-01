@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>The Snippet Blog</title>
+      <title>React.Js IT</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link rel="icon" href="" />
     </>

@@ -14,7 +14,7 @@ function Header() {
             alt="logo"
           />
         </Link>
-        <h1>The Snippet codes Blog</h1>
+        <h1 className="text-blue-400 text-2xl font-bold">React.Js <span className="underline decoration-pink-500">IT</span></h1>
       </div>
 
       <div>

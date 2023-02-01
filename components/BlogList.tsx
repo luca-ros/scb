@@ -25,7 +25,7 @@ export default function BlogList({ posts }: Props) {
                   <div>
                     <p className="font-bold">{post.title}</p>
                     <p>
-                      {new Date(post._createdAt).toLocaleDateString("en-US", {
+                      {new Date(post._createdAt).toLocaleDateString("it-IT", {
                         day: "numeric",
                         month: "long",
                         year: "numeric",

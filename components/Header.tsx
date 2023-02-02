@@ -16,7 +16,6 @@ function Header() {
         </Link>
         <h1 className="text-blue-400 text-2xl font-bold">React.Js <span className="underline decoration-pink-500">IT</span></h1>
       </div>
-
       <div>
         <Link
           href=''

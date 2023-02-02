@@ -9,7 +9,7 @@ function Logo(props: any) {
         className="rounded-full"
         width={50}
         height={50}
-        src="https://i.ibb.co/rtn35qD/android-chrome-512x512.png"
+        src="https://i.ibb.co/2ghDrY3/android-chrome-512x512.png"
         alt="logo scb"
       />
       {renderDefault && <>{renderDefault(props)}</>}

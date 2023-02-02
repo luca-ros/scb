@@ -55,7 +55,7 @@ async function Post({ params: { slug } }: Props) {
               <div>
                 <h1 className="text-4xl font-extrabold">{post.title}</h1>
                 <p>
-                  {new Date(post._createdAt).toLocaleDateString("en-US", {
+                  {new Date(post._createdAt).toLocaleDateString("it-IT", {
                     day: "numeric",
                     month: "long",
                     year: "numeric",

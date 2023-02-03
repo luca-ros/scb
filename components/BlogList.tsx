@@ -34,7 +34,7 @@ export default function BlogList({ posts }: Props) {
                   </div>
 
                   <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
-                    {post.categories.map((category) => (
+                    {post.categories?.map((category) => (
                       <div
                         key={category._id}
                         className="bg-violet-700 text-center text-white px-3 py-1 rounded-full text-sm font-semibold"

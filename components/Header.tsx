@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SocialIcon } from "react-social-icons"
 
 function Header() {
   return (
@@ -7,22 +8,17 @@ function Header() {
       <div className="flex items-center space-x-2">
         <Link href="/">
           <Image
-            src="https://i.ibb.co/2ghDrY3/android-chrome-512x512.png"
+            src="https://i.ibb.co/4Y6x0TS/w3i.png"
             width={50}
             height={50}
             className="rounded-full"
             alt="logo"
           />
         </Link>
-        <h1 className="text-blue-400 text-2xl font-bold">React.Js <span className="underline decoration-pink-500">IT</span></h1>
+        <h1 className="text-blue-400 text-2xl font-bold">Web3i</h1>
       </div>
       <div>
-        <Link
-          href=''
-          className="px-5 py-3 text-sm text-white md:text-base bg-violet-700 flex items-center rounded-full text-center"
-        >
-          Member Access
-        </Link>
+      <SocialIcon url="https://t.me/web3innovations" style={{ height: 40, width: 40, }} />
       </div>
     </div>
   );
